@@ -18,7 +18,7 @@ void setup()
 void loop() 
 {
   customPORTB |= 0b00100000;
-  customDelay(500);                      
+  customDelay(100);                      
   customPORTB &= 0b00000000;    
-  customDelay(500);                       
+  customDelay(100);                       
 }
